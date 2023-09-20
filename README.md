@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<!-- let arr = [5.4, 0.35, 0.42, 1.2, 36, 6.6, 1.56, 1.08, 6.13, 0.28, 1.54]
+let final = []
+let count = 0
+let k = 1
+for (let i = 0; i < 11; i++) {
+    for (let j = 0; j < arr.length; j++) {
+        let x = +arr[j] + 0.1
+        arr[j] = +x.toFixed(2)
+        count++
+        if (count % 22 === 0) {
+            k++
+            console.log(k)
+        }
+        final.push([...arr, k])
+    }
+}
+
+console.log(JSON.stringify(final)) -->
