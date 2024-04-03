@@ -10,17 +10,20 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
-// app.use(bodyParser.urlencoded({extended:true}));
+
+const APP_DIR = './dist/mini-project'
 app.use(bodyParser.json());
 app.use(cors());
 
 app.use('', api);
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/index.html'));
-});
+app.get('*.*', express.static(path.join(__dirname, APP_DIR)));
+app.all('*', (req, res) => {
+  res.sendFile(path.join(__dirname, APP_DIR, 'index.html'))
+})
+
+
 
 app.listen(port, function () {
-  console.log("listening on port :" + port);
+  console.log("listening on :http://localhost:" + port);
 });

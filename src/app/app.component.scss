@@ -2291,8 +2291,8 @@ input[type="reset"].small,
 
 .wrapper.style2 {
   background-color: #83d3c9;
-  background-image: url("../assets/css/images/light-bl.svg"),
-    url("../assets/css/images/light-br.svg");
+  // background-image: url("../assets/css/images/light-bl.svg"),
+  // url("../assets/css/images/light-br.svg");
   background-position: bottom left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: 25em, 25em;
@@ -2580,17 +2580,17 @@ input[type="reset"].small,
 }
 
 #banner {
-  background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
-  background-image: url("../assets/css/images/light-bl.svg"),
-    url("../assets/css/images/light-br.svg"),
-    url("../assets/css/images/overlay.png"), url("../images/banner.jpg");
-  background-position: bottom left, bottom right, top left, top center;
-  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-  background-size: 25em, 25em, auto, cover;
+  // background-attachment: scroll, scroll, scroll, fixed;
+  // background-color: #645862;
+  background-image: url("../images/soil.jpg");
+  // background-position: bottom left, bottom right, top left, top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // width: 100%;
+  height: 100vh;
   color: #fff;
-  cursor: default;
-  padding: 6em 0;
+  // cursor: default;
+  padding: 10em 0;
   text-align: center;
 }
 
@@ -2650,14 +2650,14 @@ input[type="reset"].small,
 /* Main */
 
 #main {
-  background-image: url("../assets/css/images/dark-tl.svg"),
-    url("../assets/css/images/dark-tr.svg"),
-    url("../assets/css/images/dark-bl.svg"),
-    url("../assets/css/images/dark-br.svg");
-  background-position: top left, top right, bottom left, bottom right;
-  background-repeat: no-repeat;
+  // background-image: url("../assets/css/images/dark-tl.svg"),
+  //   url("../assets/css/images/dark-tr.svg"),
+  //   url("../assets/css/images/dark-bl.svg"),
+  //   url("../assets/css/images/dark-br.svg");
+  // background-position: top left, top right, bottom left, bottom right;
+  // background-repeat: no-repeat;
   background-size: 25em;
-  padding: 7em 0;
+  padding: 15em 0;
 }
 
 #main > :last-child {
@@ -2683,11 +2683,11 @@ body.index #main {
 /* CTA */
 
 #cta {
-  background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
-  background-image: url("../assets/css/images/light-tl.svg"),
-    url("../assets/css/images/light-tr.svg"),
-    url("../assets/css/images/overlay.png"), url("../images/banner.jpg");
+  // background-attachment: scroll, scroll, scroll, fixed;
+  // background-color: #645862;
+  // background-image: url("../assets/css/images/light-tl.svg"),
+  //   url("../assets/css/images/light-tr.svg"),
+  //   url("../assets/css/images/overlay.png"), url("../images/soil.jpg");
   background-position: top left, top right, top left, bottom center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;

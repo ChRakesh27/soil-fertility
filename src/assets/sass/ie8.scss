@@ -1,7 +1,7 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
 
 /*
 	Twenty by HTML5 UP
@@ -11,34 +11,34 @@
 
 /* Section/Article */
 
-	section,
-	article {
-		> .last-child,
-		&.last-child {
-			margin-bottom: 0;
-		}
-	}
+section,
+article {
+  > .last-child,
+  &.last-child {
+    margin-bottom: 0;
+  }
+}
 
 /* Banner */
 
-	#banner {
-		background-image: url('../../images/banner.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+#banner {
+  background-image: url("../../images/soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+  -ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 
-		.inner {
-			background: _palette(banner, inner-bg);
-		}
-	}
+  .inner {
+    background: _palette(banner, inner-bg);
+  }
+}
 
 /* CTA  */
 
-	#cta {
-		background-image: url('../../images/banner.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-	}
+#cta {
+  background-image: url("../../images/soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+  -ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+}
